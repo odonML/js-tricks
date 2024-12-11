@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 200px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.error {
+  border: #bc0000 1px solid;
+  color: #bc0000;
+}
+.input-group span {
+  font-size: 13px;
+  color: #bc0000;
+}
